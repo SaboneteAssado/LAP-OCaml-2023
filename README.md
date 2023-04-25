@@ -202,22 +202,3 @@ let shortest2 m = ...
 Given a maze m that can contain loops, find the shortest path from an entrance room to an exit room. Is there are several tied best paths, return any of them. If there is no path connecting an entrance room to an exit room, this situation is represented by returning the empty list (the constant _NO_PATH).
 # shortest2 myMaze;;
 - : room list = [11; 12]
-Evaluation and grades
-You will submit the file "Maze.ml" via Mooshak.
-Around 80% of the grade of your group is automatically assigned by Mooshak. The remaining 20% is assigned manually by the teachers, who will analyze the quality of your code.
-
-A special case: In case of code of extremely bad quality, or code that uses the forbidden imperative mechanisms of OCaml, or code that constantly simulates imperative mechanisms and concepts, a special rule will be used so that the grade will be always below 50%, even if the program works well.
-
-To develop the project, we strongly recommend you use the OCaml interpreter, probably inside the Eclipse IDE.
-
-However, you should know that Mooshak will compile your module using the following command:
-
-ocamlc -c Maze.mli Maze.ml
-After the compilation, Mooshak will test the module in the interpreter like this:
-$ ocaml
-    Objective Caml version 4.02.3
-# #load "Maze.cmo";;
-# open Maze;;
-...
-...
-Please, make a backup of the file "Maze.ml" once a while, because the file can disappear as result of human error or as result of a software/hardware malfunction.
